@@ -1,0 +1,19 @@
+{
+  "name": "coffe-or-backend",
+  "version": "backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev" :"nodemon src/index.js"
+  },
+  "keywords": [
+    "coffe",
+    "backend",
+    "javascript"
+  ],
+  "author": "kalash",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
