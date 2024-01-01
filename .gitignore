@@ -98,7 +98,6 @@ dist
 
 # Serverless directories
 .serverless/
-
 # FuseBox cache
 .fusebox/
 
@@ -119,3 +118,7 @@ dist
 .pnp.*
 
 # End of https://mrkandreev.name/snippets/gitignore-generator/#Node
+#Extra Files to ignore
+Notes/
+
+
