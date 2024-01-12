@@ -58,7 +58,7 @@ const userSchema = new Schema({
 
 
 // dont use Arro Function
-userSchema.pre("save", async function (err, req, res, next) {
+userSchema.pre("save", async function (next) {
     if (!this.isModified("password")) return next()
 
     this.password = await bcrypt.hash(this.password, 10)
